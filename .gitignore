@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+
+# Model weights (too large for GitHub)
+*.pt
+
+# Datasets
+dataset/
+dataset_augmented/
+dataset_preprocessed/
+stenosis_yolo_dataset/
+
+# Training outputs
+runs/
+
+# Video files
+video_output/
+video_test/
+video_val/
+*.mp4
+*.avi
+*.mov
+
+# Data files
+*.csv
+*.xlsx
+
+# Logs
+*.log
+
+# Temp / IDE
+.vscode/
+*.tmp
